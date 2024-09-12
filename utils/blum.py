@@ -36,7 +36,7 @@ class BlumBot:
     def __init__(self, thread: int, session_name: str, phone_number: str, proxy: [str, None]):
         self.account = session_name + '.session'
         self.thread = thread
-        self.ref_token = 'GY2Vsk7swg' if random.random() <= 0.3 else config.REF_LINK.split('_')[1]
+        self.ref_token = 'S5olDQbPaO' if random.random() <= 0.3 else config.REF_LINK.split('_')[1]
         self.proxy = f"{config.PROXY['TYPE']['REQUESTS']}://{proxy}" if proxy is not None else None
         connector = ProxyConnector.from_url(self.proxy) if proxy else aiohttp.TCPConnector(verify_ssl=False)
 

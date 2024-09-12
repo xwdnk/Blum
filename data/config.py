@@ -2,7 +2,7 @@
 API_ID = 1488
 API_HASH = 'abcde1488'
 
-REF_LINK = 'https://t.me/BlumCryptoBot/app?startapp=ref_GY2Vsk7swg'
+REF_LINK = 'https://t.me/BlumCryptoBot/app?startapp=ref_S5olDQbPaO'
 
 DELAYS = {
     "RELOGIN": [5, 7],  # delay after a login attempt
